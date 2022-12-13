@@ -1,0 +1,40 @@
+body
+{
+background-color: rgb(148, 186, 218);
+}
+h1
+{
+color: rgb(77, 184, 148);
+background-color: rgb(74, 206, 204);
+}
+
+#show_sketch
+{
+  float: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border: radius 20px;
+    animation-name:exampel;
+    animation-duration: 4s;
+    margin-top: 10px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes exampel  {
+    0%{box-shadow: 1px 1px 38px rgb(161, 240, 152);}
+    25%{box-shadow: 1px 1px 38px rgb(195, 149, 235);}
+    50%{box-shadow: 1px 1px 38px rgb(232, 112, 112);}
+    75%{box-shadow: 1px 1px 38px rgb(215, 153, 182);}
+    100%{box-shadow: 1px 1px 38px rgb(233, 228, 95);}
+    
+}
+ 
+p
+{
+ padding-top: 10px;
+ font-size:25px;
+}
